@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A87FAD59-3F55-43F6-942A-C7B0649BDA04}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/IdentityServiceExtensions.cs">
+    <Files>
+      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="17" Column="54" />
+      <File FileName="API/Startup.cs" Line="37" Column="54" />
+      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="6" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="social-app" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Extensions" expanded="True">
+                <Node name="IdentityServiceExtensions.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
