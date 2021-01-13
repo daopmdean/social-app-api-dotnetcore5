@@ -14,6 +14,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,9 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="socialapp.db-shm" />

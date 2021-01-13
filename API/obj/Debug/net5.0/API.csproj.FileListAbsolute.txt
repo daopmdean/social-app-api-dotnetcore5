@@ -61,3 +61,6 @@
 /Users/daopham/projects/social-app/API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/daopham/projects/social-app/API/bin/Debug/net5.0/Humanizer.dll
 /Users/daopham/projects/social-app/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/daopham/projects/social-app/API/bin/Debug/net5.0/Data/UserSeedData.json
+/Users/daopham/projects/social-app/API/bin/Debug/net5.0/AutoMapper.dll
+/Users/daopham/projects/social-app/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -3,35 +3,35 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
+using API.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
-        private readonly DataContext _context;
+        private readonly IUserRepository _userRepository;
 
-        public UsersController(DataContext dataContext)
+        public UsersController(IUserRepository userRepository)
         {
-            _context = dataContext;
+            _userRepository = userRepository;
         }
 
         [HttpGet]
-        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            return Ok(await _userRepository.GetUsersAsync());
         }
 
-        [HttpGet("{id}")]
-        [Authorize]
-        public async Task<ActionResult<AppUser>> GetUser(int id)
+        [HttpGet("{username}")]
+        public async Task<ActionResult<AppUser>> GetUserByUsername(string username)
         {
-            return await _context.Users.FindAsync(id);
+            return await _userRepository.GetUserByUsernameAsync(username);
         }
     }
 }
