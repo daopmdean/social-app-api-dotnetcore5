@@ -1,18 +1,27 @@
 ﻿<Properties StartupConfiguration="{A87FAD59-3F55-43F6-942A-C7B0649BDA04}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/IdentityServiceExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/ClaimsPrincipleExtensions.cs">
     <Files>
-      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="17" Column="54" />
-      <File FileName="API/Startup.cs" Line="37" Column="54" />
-      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="6" Column="23" />
+      <File FileName="API/Controllers/AccountController.cs" Line="87" Column="49" />
+      <File FileName="API/Helpers/PagedList.cs" Line="1" Column="1" />
+      <File FileName="API/Helpers/PaginationHeader.cs" Line="9" Column="39" />
+      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="24" Column="28" />
+      <File FileName="API/Extensions/ClaimsPrincipleExtensions.cs" Line="8" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="social-app" expanded="True">
             <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+              <Node name="Entities" expanded="True" />
               <Node name="Extensions" expanded="True">
-                <Node name="IdentityServiceExtensions.cs" selected="True" />
+                <Node name="ClaimsPrincipleExtensions.cs" selected="True" />
               </Node>
+              <Node name="Helpers" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -14,7 +14,7 @@
         "outputPath": "/Users/daopham/projects/social-app/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/daopham/.config/NuGet/NuGet.Config"
+          "/Users/daopham/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -41,6 +41,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.14.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
